@@ -21,10 +21,10 @@ const Work = () => {
                             {project.name}
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href={project.github}>
+                        {project.github ? <a href={project.github}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg'>code</button>
-                            </a>
+                       bg-white text-gray-700 font-bold text-lg'>demo</button>
+                            </a> : <l></l>}
                             {project.demo ? <a href={project.demo}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg'>demo</button>

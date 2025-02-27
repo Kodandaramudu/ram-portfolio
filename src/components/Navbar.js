@@ -51,7 +51,7 @@ const Navbar = () => {
                     </a>
                     </li> 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fbc20]'>
-                    <a className="flex justify-between items-center w-full text-gray-300" href={Resume}>Resume <RiArrowRightUpLine className='size-8'/>
+                    <a className="flex justify-between items-center w-full text-gray-300" href={Resume}>Download Resume <RiArrowRightUpLine className='size-8'/>
                     </a>
                     </li>      
             </ul>

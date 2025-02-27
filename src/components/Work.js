@@ -25,10 +25,11 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg'>code</button>
                             </a>
-                            <a href={project.demo}>
+                            {project.demo ? <a href={project.demo}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg'>demo</button>
-                            </a>
+                            </a> : <l></l>}
+
                         </div>
                     </div>
                 </div>          

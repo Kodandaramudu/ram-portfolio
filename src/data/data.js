@@ -20,7 +20,7 @@ export const data =[{
     id:3,
     name:"devTinder Application",
     image:DevTinder,
-    github:"",
+    github:"https://github.com/Kodandaramudu/devTinder",
     demo:""
 
 }]

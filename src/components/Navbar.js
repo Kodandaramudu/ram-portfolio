@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { FaBars,FaTimes,FaLinkedin,FaGithub } from 'react-icons/fa';
 import { RiArrowRightUpLine } from 'react-icons/ri';
-import Logo from "../assets/logo3.png";
+import Logo from "../assets/logo.png";
 import { Link } from 'react-scroll';
 
 
